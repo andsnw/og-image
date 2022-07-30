@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://andrewsnow.me/photo.png'
-        : 'https://andrewsnow.me/photo.png';
+        ? 'https://andrewsnow.me/oni.png'
+        : 'https://andrewsnow.me/oni.png';
 
     if (!images || !images[0]) {
         return [defaultImage];
